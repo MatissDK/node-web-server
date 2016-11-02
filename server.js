@@ -34,7 +34,7 @@ app.use(express.static(publicPath));
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        pageTitle: 'Home page',
+        pageTitle: 'Hello Dagny!',
         message: 'Welcome to home page!!!',
         currentYear: new Date().getFullYear()
     });
